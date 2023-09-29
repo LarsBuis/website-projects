@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        p {
+            color: #d3d3d3;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+
+        #dot {
+            height: 18px;
+            width: 18px;
+            background-color: #d3d3d3;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        #v1 {
+            border-left: 4px solid #d3d3d3;
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-[#212121]">
+    <nav class="bg-[#272526] m-5 lg:m-60 lg:mt-10 lg:mb-10 rounded-xl text-center">
+        <div class="mx-auto px-4 text-l max-lg:text-sm text-[#d3d3d3] ">
+          <div class="flex justify-center lg:justify-end lg:pr-10 items-center h-16">
+            <a href="#home" class=" font-semibold hover:text-gray-500">Home</a>
+            <a href="#about" class="font-semibold ml-4 hover:text-gray-500">About</a>
+            <a href="#resume" class=" font-semibold ml-4 hover:text-gray-500">Resume</a>
+            <a href="#projects" class=" font-semibold ml-4 hover:text-gray-500">Projects</a>
+            <a href="contact.html" class="font-semibold ml-4 hover:text-gray-500">Contact</a>
+          </div>
+        </div>
+    </nav>
+    <div id="home" class="bg-[#272526] m-5 lg:m-60 lg:mt-10 lg:mb-10 rounded-xl">
+    <div class="flex flex-col lg:flex-row flex-grow">
+        <div class="flex-1  m-5 lg:ml-20">
+            <p class="text-2xl lg:text-4xl md:p-0 lg:p-10 lg:pb-5 text-[#838383]">I am Lars Buis</p>
+            <p class="text-4xl lg:text-6xl lg:px-10 bg-gradient-to-r from-[#DE9037] to-[#D21E5B] bg-clip-text text-transparent">Front-End Developer</p>
+        </div>
+        <div class="flex-1  m-5 mr-20 lg:ml-20">
+            <img class="xl:scale-[70%] lg:scale-90 max-md:scale-[70%]" src="hero1.png" alt="hero">
+        </div>
+    </div>
+    </div>
+    <div>
+        <div id="about" class="bg-[#272526] m-5 lg:m-60 lg:mb-10 lg:mt-10 rounded-xl">
+            <div class="flex flex-col lg:flex-row ">
+                <div class="m-5 lg:p-10 lg:pb-5 lg:ml-20 text-2xl lg:text-4xl basis-1/2 ">
+                <p class="bg-gradient-to-r from-[#DE9037] to-[#D21E5B] bg-clip-text text-transparent">About Me</p>
+                <p class="text-[#838383] text-l lg:text-2xl">I am a Front-End Developer</p>
+                <p class="text-sm mt-4 text-[#d3d3d3]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class=" basis-1/2 m-5 lg:ml-40 lg:mt-[-40px]">
+                <img class="scale-[50%] " src="htmlcssjs.png" alt="html css js" >
+            </div>
+    </div>
+    </div>
+        <div id="resume" class="bg-[#272526] m-5 lg:m-60 lg:mt-10 rounded-xl">
+            <div class="flex flex-col lg:flex-row">
+                <div class="  m-5  lg:p-10 lg:pb-5 lg:ml-20 text-2xl lg:text-4xl basis-1/2">
+                    <p class="bg-gradient-to-r from-[#DE9037] to-[#D21E5B] bg-clip-text text-transparent">Experience</p>
+                    <p class="pt-5">I have more than 6 years experience</p>
+                </div>
+                <div class="  m-5  lg:p-10 lg:pb-5 lg:pr-0 lg:ml-20 text-2xl lg:text-4xl basis-1/2">
+                    <p class="bg-gradient-to-r from-[#DE9037] to-[#D21E5B] bg-clip-text text-transparent">Resume</p>
+                    <div class="flex flex-row">
+                        <div>
+                            <div class="flex flex-col ml-4">
+                            <span id="dot" class="ml-[-6px] mt-10"></span>
+                            <span id="v1" class=""></span>
+                            <span id="dot" class="ml-[-6px] mt-[-100px]"></span>
+                            <span class="mb-20"></span>
+                            </div>
+                        </div>
+                        <div class="ml-6 mt-8">
+                            <p class="text-lg font-bold">Amazon</p>
+                            <p class="text-base">Front-End Developer (2017-today)</p>
+                        <div>
+                            <div class="mt-16">
+                            <p class="text-lg font-bold">Fiverr</p>
+                            <p class="text-base">Front-End Developer (2016-2017)</p>
+                        </div>
+                        </div>
+
+                    </div>  
+                </div>
+            </div>
+    </div>
+</body>
+</html>
